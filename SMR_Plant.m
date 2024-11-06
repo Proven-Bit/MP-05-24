@@ -1,6 +1,10 @@
 clc, close all
 
+% Version 1.0.0
+
 % Define parameters
+% This will be saved in a CSV file where the columns are the different 
+% parameters and assumptions as well as the LCOM for the different options.
 
 years = 20;
 contributors = 5;        % Different Options Calculated
@@ -12,49 +16,45 @@ NOK_USD = 1/10.97; % [NOK/USD] Updated: 5.11.2024
 % Define annual production target 
 annual_production = 2000;  % Target annual production of methanol
 
-% Force certain config related to the feedstock options
-
-%   biofeed-true
-bio_methane_feed_beta = 50; % %-biofeed of total amount produced
-
+% OPEX related
 %   feedstocks prices
 bio_methane_feed_price = 96.82; % [USD/tonn]
 fossil_methane_feed_price = 60.58; % [USD/tonn]
-CO2_feed_price = 10;
+CO2_feed_price = 50; % [USD/ton]
 PPA_price = 75; % [Eur/MWh]
 PPA_price_USD = PPA_price*EUR_USD; % [USD/MWh]
 water_price_per_ton = 18.94*NOK_USD; % [USD/ton]
 
+Energy_price_PPA = PPA_price_USD/1000;            % Energy price per kWh [USD/kWh]
+
+% Electrolyzer specifics
 xi = 0.5;                           % Electrolyzer factor
 eta = 0.9;                          % Electrolyzer efficiency (80%)
-Energy_price_PPA = PPA_price_USD/1000;            % Energy price per kWh [USD/kWh]
-CO2_price = 50;                     % CO2 price per ton [USD/ton]
-
 
 
 %% Calcuale the Cost of the blended feed on annual production rate
-Cost_blended_feed = calculateCostBlendedFeed(annual_production, fossil_methane_feed_price, bio_methane_feed_price, bio_methane_feed_beta);
+Cost_blended_feed = calculateCostBlendedFeed(annual_production, fossil_methane_feed_price, bio_methane_feed_price, 50);
 Cost_fossil_feed = calculateCostBlendedFeed(annual_production, fossil_methane_feed_price, bio_methane_feed_price, 0);
 Cost_bio_feed = calculateCostBlendedFeed(annual_production, fossil_methane_feed_price, bio_methane_feed_price, 100);
 [water_cost_0, process1_water_0, process2_water_0, electrolyzer_water_0, byproduct_water_0] = calculateWaterCostMethanolProduction(annual_production, 0, water_price_per_ton);
 
 % 50 % green hydrogen (electrolyzer) + CO2 direct feedstock, 50 % bio methane feedstock
-[Energy_cost_50, CO2_consumption_50, CO2_cost_50] = calculateGreenHydrogenMethanolSynthesis(xi, annual_production, eta, Energy_price_PPA, CO2_price);
+[Energy_cost_50, CO2_consumption_50, CO2_cost_50] = calculateGreenHydrogenMethanolSynthesis(xi, annual_production, eta, Energy_price_PPA, CO2_feed_price);
 Cost_bio_feed_with_green_hydrogen = calculateCostBlendedFeed((1-xi)*annual_production, fossil_methane_feed_price, bio_methane_feed_price, 100);
 [water_cost_50, process1_water_50, process2_water_50, electrolyzer_water_50, byproduct_water_50] = calculateWaterCostMethanolProduction(annual_production, 0.5, water_price_per_ton);
 
 
 % 100 % green hydrogen (electrolyzer) + CO2 direct feedstock
-[Energy_cost_100, CO2_consumption_100, CO2_cost_100] = calculateGreenHydrogenMethanolSynthesis(1, annual_production, eta, Energy_price_PPA, CO2_price);
+[Energy_cost_100, CO2_consumption_100, CO2_cost_100] = calculateGreenHydrogenMethanolSynthesis(1, annual_production, eta, Energy_price_PPA, CO2_feed_price);
 [water_cost_100, process1_water_100, process2_water_100, electrolyzer_water_100, byproduct_water_100] = calculateWaterCostMethanolProduction(annual_production, 1, water_price_per_ton);
 
 
 % Initialize Capex and Opex matrices 
-capex = [zeros(1, years); ... % Capex for the blended feed
+capex = [zeros(1, years); ... % Capex for the blended feed (50 % bio, 50 % fossil)
         zeros(1, years); ... % Capex for the fossil feed
         zeros(1, years); ... % Capex for the bio feed
-        zeros(1, years); ... % Capex for green hydrogen mix
-        zeros(1, years)];  
+        zeros(1, years); ... % Capex for the 50 % green hydrogen with CO2 feed
+        zeros(1, years)];   % Capex for the 100 % green hydrogen with CO2 feed
 
 % Capex for spesific years
 capex(1,1) = 10000*(bio_methane_feed_beta/100); % Capex in year 1 for blended feed [USD]
@@ -96,6 +96,21 @@ LCOM = zeros(contributors, 1);
 for c =1:contributors
    LCOM(c) = (npv_capex_contributor(c)+npv_opex_contributor(c))/total_npv_production;
 end
+
+%% Save the values in CSV-file
+%% Prepare column names and data values
+columnNames = {'Years', 'Contributors', 'InterestRate', 'AnnualProduction', ...
+               'BioMethaneFeedBeta', 'BioMethaneFeedPrice', 'FossilMethaneFeedPrice', ...
+               'CO2FeedPrice', 'PPA_Price_EUR_MWh', 'WaterPriceNOK', ...
+               'ElectrolyzerFactor', 'ElectrolyzerEfficiency', 'LCOM'};
+           
+dataValues = {years, contributors, interest_rate, annual_production, ...
+              bio_methane_feed_beta, bio_methane_feed_price, fossil_methane_feed_price, ...
+              CO2_feed_price, PPA_price, water_price_per_ton, ...
+              xi, eta, LCOM};
+
+%% Save the values in CSV file, for data analytics.
+saveDataToCSV(columnNames, dataValues, 'test_data4.csv');
 
 %% Prints for troubleshooting
 LCOM

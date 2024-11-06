@@ -1,0 +1,2 @@
+Years,Contributors,InterestRate,AnnualProduction,BioMethaneFeedBeta,BioMethaneFeedPrice,FossilMethaneFeedPrice,CO2FeedPrice,PPA_Price_EUR_MWh,WaterPriceNOK,ElectrolyzerFactor,ElectrolyzerEfficiency,LCOM_1,LCOM_2,LCOM_3,LCOM_4,LCOM_5
+20,5,0.05,2000,50,96.82,60.58,50,75,1.72652689152233,0.5,0.9,31.3671125028176,24.2598134795972,38.5126222818431,281.930514902223,525.730515080655
