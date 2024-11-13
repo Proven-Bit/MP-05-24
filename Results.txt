@@ -1,0 +1,70 @@
+
+========================================
+--- New Results Recorded on 2024-11-13 12:27:51 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.30
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 450.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 2094033.26 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 2289118.61 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 1898947.91 USD
+Scenario 4: LCOM = 1523.44 USD, NPV = -21078385.39 USD
+Scenario 5: LCOM = 2264.39 USD, NPV = -35627946.48 USD
+
+========================================
+--- New Results Recorded on 2024-11-13 12:36:10 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.30
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 450.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 2094033.26 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 2289118.61 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 1898947.91 USD
+Scenario 4: LCOM = 1523.44 USD, NPV = -21078385.39 USD
+Scenario 5: LCOM = 2264.39 USD, NPV = -35627946.48 USD
