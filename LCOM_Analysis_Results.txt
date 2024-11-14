@@ -1,377 +1,377 @@
 LCOM Analysis Results
-Data source file: test_data13.csv
+Data source file: Results_Final.csv
 
 Parameter: AnnualDiscountRate
   LCOM_1:
-    Max LCOM_1: 329.97
-    Min LCOM_1: 303.36
+    Max LCOM_1: 356.77
+    Min LCOM_1: 329.97
   LCOM_2:
-    Max LCOM_2: 320.04
-    Min LCOM_2: 293.42
+    Max LCOM_2: 346.83
+    Min LCOM_2: 320.04
   LCOM_3:
-    Max LCOM_3: 339.91
-    Min LCOM_3: 313.29
+    Max LCOM_3: 366.70
+    Min LCOM_3: 339.91
   LCOM_4:
-    Max LCOM_4: 794.04
-    Min LCOM_4: 777.62
+    Max LCOM_4: 810.50
+    Min LCOM_4: 794.01
   LCOM_5:
-    Max LCOM_5: 1294.88
-    Min LCOM_5: 1276.61
+    Max LCOM_5: 1313.99
+    Min LCOM_5: 1294.83
 
 Parameter: EURtoUSD
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 781.70
-    Min LCOM_4: 781.70
+    Max LCOM_4: 802.25
+    Min LCOM_4: 802.25
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: NOKtoUSD
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 781.70
-    Min LCOM_4: 781.70
+    Max LCOM_4: 802.25
+    Min LCOM_4: 802.25
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: AnnualMethanolProduction
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 781.70
-    Min LCOM_4: 781.70
+    Max LCOM_4: 802.25
+    Min LCOM_4: 802.25
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: BioMethanePrice
   LCOM_1:
-    Max LCOM_1: 313.97
-    Min LCOM_1: 306.00
+    Max LCOM_1: 347.34
+    Min LCOM_1: 339.38
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 327.88
-    Min LCOM_3: 311.96
+    Max LCOM_3: 361.26
+    Min LCOM_3: 345.33
   LCOM_4:
-    Max LCOM_4: 785.68
-    Min LCOM_4: 777.72
+    Max LCOM_4: 806.23
+    Min LCOM_4: 798.27
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: FossilMethanePrice
   LCOM_1:
-    Max LCOM_1: 312.48
-    Min LCOM_1: 307.49
+    Max LCOM_1: 345.85
+    Min LCOM_1: 340.87
   LCOM_2:
-    Max LCOM_2: 305.03
-    Min LCOM_2: 295.07
+    Max LCOM_2: 338.41
+    Min LCOM_2: 328.44
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 781.70
-    Min LCOM_4: 781.70
+    Max LCOM_4: 802.25
+    Min LCOM_4: 802.25
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: CO2Price
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 786.85
-    Min LCOM_4: 776.55
+    Max LCOM_4: 807.40
+    Min LCOM_4: 797.10
   LCOM_5:
-    Max LCOM_5: 1291.36
-    Min LCOM_5: 1270.76
+    Max LCOM_5: 1314.62
+    Min LCOM_5: 1294.01
 
 Parameter: PPA_Price_EUR_MWh
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 781.70
-    Min LCOM_4: 781.70
+    Max LCOM_4: 802.25
+    Min LCOM_4: 802.25
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: PPA_Price_USD_MWh
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 781.70
-    Min LCOM_4: 781.70
+    Max LCOM_4: 802.25
+    Min LCOM_4: 802.25
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: WaterPriceUSD_Ton
   LCOM_1:
-    Max LCOM_1: 310.19
-    Min LCOM_1: 309.78
+    Max LCOM_1: 343.57
+    Min LCOM_1: 343.15
   LCOM_2:
-    Max LCOM_2: 300.26
-    Min LCOM_2: 299.84
+    Max LCOM_2: 333.63
+    Min LCOM_2: 333.22
   LCOM_3:
-    Max LCOM_3: 320.13
-    Min LCOM_3: 319.71
+    Max LCOM_3: 353.50
+    Min LCOM_3: 353.09
   LCOM_4:
-    Max LCOM_4: 782.02
-    Min LCOM_4: 781.38
+    Max LCOM_4: 802.57
+    Min LCOM_4: 801.93
   LCOM_5:
-    Max LCOM_5: 1281.42
-    Min LCOM_5: 1280.69
+    Max LCOM_5: 1304.68
+    Min LCOM_5: 1303.95
 
 Parameter: EnergyCostPerkWh
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 865.00
-    Min LCOM_4: 698.41
+    Max LCOM_4: 885.54
+    Min LCOM_4: 718.95
   LCOM_5:
-    Max LCOM_5: 1447.65
-    Min LCOM_5: 1114.47
+    Max LCOM_5: 1470.90
+    Min LCOM_5: 1137.73
 
 Parameter: SMR_MiscOpexFraction
   LCOM_1:
-    Max LCOM_1: 313.05
-    Min LCOM_1: 307.30
+    Max LCOM_1: 346.42
+    Min LCOM_1: 340.67
   LCOM_2:
-    Max LCOM_2: 302.43
-    Min LCOM_2: 297.96
+    Max LCOM_2: 335.80
+    Min LCOM_2: 331.33
   LCOM_3:
-    Max LCOM_3: 323.66
-    Min LCOM_3: 316.63
+    Max LCOM_3: 357.04
+    Min LCOM_3: 350.00
   LCOM_4:
-    Max LCOM_4: 783.62
-    Min LCOM_4: 780.02
+    Max LCOM_4: 804.17
+    Min LCOM_4: 800.56
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: ElectrolyzerMiscOpexFraction
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 781.70
-    Min LCOM_4: 781.70
+    Max LCOM_4: 802.25
+    Min LCOM_4: 802.25
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.32
+    Min LCOM_5: 1304.31
 
 Parameter: ElectrolyzerFactor
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 866.27
-    Min LCOM_4: 697.13
+    Max LCOM_4: 886.82
+    Min LCOM_4: 717.68
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: ElectrolyzerEfficiency
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 879.69
-    Min LCOM_4: 709.27
+    Max LCOM_4: 900.24
+    Min LCOM_4: 729.82
   LCOM_5:
-    Max LCOM_5: 1477.04
-    Min LCOM_5: 1136.20
+    Max LCOM_5: 1500.30
+    Min LCOM_5: 1159.46
 
 Parameter: ElectrolyzerVoltage
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 864.99
-    Min LCOM_4: 698.41
+    Max LCOM_4: 885.54
+    Min LCOM_4: 718.96
   LCOM_5:
-    Max LCOM_5: 1447.64
-    Min LCOM_5: 1114.47
+    Max LCOM_5: 1470.90
+    Min LCOM_5: 1137.73
 
 Parameter: ElectrolyzerCapexPerKW
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 781.70
-    Min LCOM_4: 781.70
+    Max LCOM_4: 802.25
+    Min LCOM_4: 802.25
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: ElectrolyzerLifetimeYears
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 781.70
-    Min LCOM_4: 781.70
+    Max LCOM_4: 802.25
+    Min LCOM_4: 802.25
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 
 Parameter: SMR_RefProduction
   LCOM_1:
-    Max LCOM_1: 341.97
-    Min LCOM_1: 285.25
+    Max LCOM_1: 379.36
+    Min LCOM_1: 315.51
   LCOM_2:
-    Max LCOM_2: 332.03
-    Min LCOM_2: 275.31
+    Max LCOM_2: 369.43
+    Min LCOM_2: 305.57
   LCOM_3:
-    Max LCOM_3: 351.90
-    Min LCOM_3: 295.18
+    Max LCOM_3: 389.30
+    Min LCOM_3: 325.44
   LCOM_4:
-    Max LCOM_4: 801.39
-    Min LCOM_4: 766.47
+    Max LCOM_4: 824.41
+    Min LCOM_4: 785.10
   LCOM_5:
-    Max LCOM_5: 1293.03
-    Min LCOM_5: 1271.80
+    Max LCOM_5: 1319.09
+    Min LCOM_5: 1292.89
 
 Parameter: SMR_RefCapex
   LCOM_1:
-    Max LCOM_1: 349.80
-    Min LCOM_1: 270.17
+    Max LCOM_1: 388.18
+    Min LCOM_1: 298.54
   LCOM_2:
-    Max LCOM_2: 339.87
-    Min LCOM_2: 260.23
+    Max LCOM_2: 378.25
+    Min LCOM_2: 288.60
   LCOM_3:
-    Max LCOM_3: 359.74
-    Min LCOM_3: 280.10
+    Max LCOM_3: 398.12
+    Min LCOM_3: 308.47
   LCOM_4:
-    Max LCOM_4: 806.21
-    Min LCOM_4: 757.19
+    Max LCOM_4: 829.84
+    Min LCOM_4: 774.66
   LCOM_5:
-    Max LCOM_5: 1295.96
-    Min LCOM_5: 1266.15
+    Max LCOM_5: 1322.71
+    Min LCOM_5: 1285.92
 
 Parameter: SMR_ScalingFactor
   LCOM_1:
-    Max LCOM_1: 404.63
-    Min LCOM_1: 240.22
+    Max LCOM_1: 449.90
+    Min LCOM_1: 264.82
   LCOM_2:
-    Max LCOM_2: 394.69
-    Min LCOM_2: 230.28
+    Max LCOM_2: 439.97
+    Min LCOM_2: 254.88
   LCOM_3:
-    Max LCOM_3: 414.56
-    Min LCOM_3: 250.15
+    Max LCOM_3: 459.84
+    Min LCOM_3: 274.75
   LCOM_4:
-    Max LCOM_4: 856.70
-    Min LCOM_4: 730.30
+    Max LCOM_4: 886.67
+    Min LCOM_4: 744.38
   LCOM_5:
-    Max LCOM_5: 1326.66
-    Min LCOM_5: 1249.80
+    Max LCOM_5: 1360.59
+    Min LCOM_5: 1265.74
 
 Parameter: SMR_LifetimeYears
   LCOM_1:
-    Max LCOM_1: 309.99
-    Min LCOM_1: 309.99
+    Max LCOM_1: 343.36
+    Min LCOM_1: 343.36
   LCOM_2:
-    Max LCOM_2: 300.05
-    Min LCOM_2: 300.05
+    Max LCOM_2: 333.42
+    Min LCOM_2: 333.42
   LCOM_3:
-    Max LCOM_3: 319.92
-    Min LCOM_3: 319.92
+    Max LCOM_3: 353.29
+    Min LCOM_3: 353.29
   LCOM_4:
-    Max LCOM_4: 781.70
-    Min LCOM_4: 781.70
+    Max LCOM_4: 802.25
+    Min LCOM_4: 802.25
   LCOM_5:
-    Max LCOM_5: 1281.06
-    Min LCOM_5: 1281.06
+    Max LCOM_5: 1304.31
+    Min LCOM_5: 1304.31
 

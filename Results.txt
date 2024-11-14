@@ -68,3 +68,388 @@ Scenario 2: LCOM = 333.42 USD, NPV = 2289118.61 USD
 Scenario 3: LCOM = 353.29 USD, NPV = 1898947.91 USD
 Scenario 4: LCOM = 1523.44 USD, NPV = -21078385.39 USD
 Scenario 5: LCOM = 2264.39 USD, NPV = -35627946.48 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 10:46:06 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 450.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 2094033.26 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 2289118.61 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 1898947.91 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -21925589.88 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = -21438797.55 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 11:29:17 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 450.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 2094033.26 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 2289118.61 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 1898947.91 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -21925589.88 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = -21438797.55 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 11:31:42 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 600.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 5039477.48 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 5234562.84 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 4844392.13 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -18980145.66 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = -18493353.33 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 11:32:49 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 800.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 8966736.45 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 9161821.80 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 8771651.09 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -15052886.70 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = -14566094.36 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 11:33:18 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 1200.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 16821254.37 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 17016339.73 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 16626169.02 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -7198368.77 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = -6711576.44 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 11:33:55 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 1400.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 20748513.33 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 20943598.69 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 20553427.98 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -3271109.81 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = -2784317.48 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 11:34:20 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 1550.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 23693957.56 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 23889042.91 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 23498872.20 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -325665.58 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = 161126.75 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 11:58:37 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 450.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 2094033.26 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 2289118.61 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 1898947.91 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -21925589.88 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = -21438797.55 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 12:15:20 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 60.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 450.00
+
+--- Results ---
+Scenario 1: LCOM = 343.36 USD, NPV = 2094033.26 USD
+Scenario 2: LCOM = 333.42 USD, NPV = 2289118.61 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 1898947.91 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -21925589.88 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = -21438797.55 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 14:19:11 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 160.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 450.00
+
+--- Results ---
+Scenario 1: LCOM = 370.77 USD, NPV = 1555718.26 USD
+Scenario 2: LCOM = 388.25 USD, NPV = 1212488.62 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 1898947.91 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -21925589.88 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = -21438797.55 USD
+
+========================================
+--- New Results Recorded on 2024-11-14 14:20:09 ---
+========================================
+--- Base Case Parameters ---
+Annual Discount Rate: 8.00%
+EUR to USD Conversion: 1.0870
+NOK to USD Conversion: 0.0912
+Annual Methanol Production (tons): 2000
+Bio Methane Price (USD): 96.82
+Fossil Methane Price (USD): 200.58
+CO2 Price (USD): 50.00
+PPA Price (EUR/MWh): 75.00
+PPA Price (USD/MWh): 81.52
+Water Price (USD/ton): 1.73
+Energy Cost (USD/kWh): 0.0815
+SMR Misc. OPEX Fraction: 0.30
+Electrolyzer Misc. OPEX Fraction: 0.03
+Electrolyzer Factor: 0.50
+Electrolyzer Efficiency: 0.70
+Electrolyzer Voltage (V): 1.90
+Electrolyzer CAPEX (USD/kW): 1112.00
+Electrolyzer Lifetime (years): 20
+SMR Reference Production (tons): 36500
+SMR Reference CAPEX (USD): 32256428.00
+SMR Scaling Factor: 0.70
+SMR Lifetime (years): 10
+Methanol Price (USD): 450.00
+
+--- Results ---
+Scenario 1: LCOM = 381.74 USD, NPV = 1340392.26 USD
+Scenario 2: LCOM = 410.18 USD, NPV = 781836.62 USD
+Scenario 3: LCOM = 353.29 USD, NPV = 1898947.91 USD
+Scenario 4: LCOM = 1566.58 USD, NPV = -21925589.88 USD
+Scenario 5: LCOM = 1541.79 USD, NPV = -21438797.55 USD

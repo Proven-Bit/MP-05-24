@@ -1,7 +1,7 @@
 clc, close all
 
 % Version 2.0.0
-file_name_write = 'test_data13.csv';
+file_name_write = 'test123.csv';
 years = 20;
 contributors = 5;
 
@@ -11,14 +11,14 @@ eur_to_usd = 1 / 0.92;
 nok_to_usd = 1 / 10.97;
 annual_production = 2000;
 bio_methane_price = 96.82;
-fossil_methane_price = 60.58;
+fossil_methane_price = 200.58;
 co2_price = 50;
 ppa_price_eur_mwh = 75;
 ppa_price_usd_mwh = ppa_price_eur_mwh * eur_to_usd;
 water_price_usd_ton = 18.94 * nok_to_usd;
 energy_cost_per_kwh = ppa_price_usd_mwh / 1000;
 smr_misc_opex_fraction = 0.30;
-electrolyzer_misc_opex_fraction = 0.30;
+electrolyzer_misc_opex_fraction = 0.03;
 electrolyzer_factor = 0.5;
 electrolyzer_efficiency = 0.7;
 electrolyzer_voltage = 1.9;
@@ -92,8 +92,9 @@ capex(2,10) = SMR_100_CAPEX_10_year; % Capex in year 1 for fossil feed [USD]
 capex(3,1) = SMR_100_CAPEX_10_year; % Capex in year 1 for bio feed [USD]
 capex(3,10) = SMR_100_CAPEX_10_year; % Capex in year 1 for bio feed [USD]
 capex(4,1) = SMR_50_CAPEX_10_year + Green_hydrogen_50_CAPEX_20_year; % Capex in year 1 for bio feed [USD]
-capex(4,10) = SMR_50_CAPEX_10_year; % Capex in year 1 for bio feed [USD]
-capex(5,1) = SMR_50_CAPEX_10_year + Green_hydrogen_100_CAPEX_20_year; % Capex in year 1 for bio feed [USD]
+capex(4,10) = SMR_50_CAPEX_10_year + 0.5* Green_hydrogen_50_CAPEX_20_year; % Capex in year 10 for bio feed [USD] and Fuel Stack Replacement
+capex(5,1) = Green_hydrogen_100_CAPEX_20_year; % Capex in year 1 for Hydrogen feed [USD]
+capex(5,10) = 0.5* Green_hydrogen_100_CAPEX_20_year; % Fuel Stack Replacement after 10 years
     
 opex = [(Cost_blended_feed + water_cost_0 +(smr_misc_opex_fraction*(Cost_blended_feed + water_cost_0)/...
     (1-smr_misc_opex_fraction))) * ones(1, years); ... % Opex for the blended feed); ...
@@ -374,10 +375,11 @@ for parameter = 1:length(parameters)
             npv_capex_contributor ...
             };
         % reset base case after each iteration of sensitivty cases
-        annual_discount_rate = 0.05;
+        % Define base case parameters
+        annual_discount_rate = 0.08;
         eur_to_usd = 1 / 0.92; 
         nok_to_usd = 1 / 10.97;
-        annual_methanol_production = 2000;
+        annual_production = 2000;
         bio_methane_price = 96.82;
         fossil_methane_price = 60.58;
         co2_price = 50;
